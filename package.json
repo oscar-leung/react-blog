@@ -20,7 +20,7 @@
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
-      "prettuer --write"
+      "prettier --write"
     ]
   },
   "scripts": {
@@ -28,7 +28,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "format": "prettier --write \"src/**/*.{js,jsx,html,css}\"",
+    "format": "prettier --write \"src/**/*.{js,jsx,html,css,json}\"",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
     "styleguide": "styleguidist server",
