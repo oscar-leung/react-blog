@@ -3,14 +3,17 @@ import React from "react";
 import Article from "./Article";
 import NavBar from "./NavBar";
 import ForumNetwork from "./ForumNetwork";
+import SearchParams from "./SearchParams";
+
 
 function App() {
   return (
-    <div id="main-wraper">
-      <header className = "App">
+    <div id="main-wrapper">
+      <header className = "home-page" text="">
         <ForumNetwork> </ForumNetwork>
         <img src = "https://www.thetruthaboutcars.com/wp-content/themes/ttac-theme/images/logo-ttac-mobile.svg" alt ="" height = "30" width = "161"/>
         
+        <SearchParams> </SearchParams>
         <Article> </Article>
         <Article> </Article>
         <Article> </Article>
